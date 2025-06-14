@@ -1,7 +1,7 @@
 {
   "name": "s2tw-llm",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,7 +13,6 @@
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^24.0.1",
-    "@types/opencc-js": "^1.0.3",
     "@types/picomatch": "^4.0.0",
     "@vitest/ui": "^3.2.3",
     "typescript": "~5.8.3",
@@ -23,6 +22,6 @@
   "dependencies": {
     "iconv-lite": "^0.6.3",
     "jschardet": "^3.1.4",
-    "opencc-js": "^1.0.5"
+    "opencc-rust": "^1.1.2"
   }
 }
