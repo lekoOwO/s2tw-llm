@@ -39,6 +39,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./src/dist
           publish_branch: gh-pages
           force_orphan: true
+          cname: s2tw.leko.moe
